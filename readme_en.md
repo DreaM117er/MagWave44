@@ -11,7 +11,11 @@ Dactyl Manuform keyboards come in many different styles, and various authors hav
 
 As I have a hand with the length of the ring finger between the middle finger and the index finger, I designed my first curved split keyboard based on my hands and the original Dactyl Manuform, and used low profile switches to reduce the thickness of the keyboard, which had the fatal flaw of being very difficult to maneuver with a moving finger.
 
+![des01](pics/d01.png)
+
 So I redesigned a new model based on this failed model, using the iPhone user's case accessory Mag-Safe and a wave-like base plate, and named the keyboard Mag-Wave44 based on the total number of 44 keys.
+
+![des02](pics/d02.png)
 
 ## Lists
 
