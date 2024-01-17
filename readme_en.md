@@ -1,12 +1,15 @@
 # Mag-Wave44
 
+- [中文說明（Chinese Readme）](readme.md)
+- 英文說明（English Readme）
+
 ![info](pics/info.png)
 
 ## Descruption
 
 Dactyl Manuform keyboards come in many different styles, and various authors have created their own curved split keyboards, but most of the Manuforms are based on the original model, and the finished product may not necessarily fit your hands. In terms of finger length, the ring finger is a special finger, it can be between the middle finger and the index finger, or as long as the index finger, or shorter than the index finger, which makes most of the keyboards designed for the ring finger not so friendly.
 
-As I have a hand with the length of the ring finger between the middle finger and the index finger, I designed my first curved split keyboard based on my hands and the original Dactyl Manuform, and used a short shaft to reduce the thickness of the keyboard, which had the fatal flaw of being very difficult to maneuver with a moving finger.
+As I have a hand with the length of the ring finger between the middle finger and the index finger, I designed my first curved split keyboard based on my hands and the original Dactyl Manuform, and used low profile switches to reduce the thickness of the keyboard, which had the fatal flaw of being very difficult to maneuver with a moving finger.
 
 So I redesigned a new model based on this failed model, using the iPhone user's case accessory Mag-Safe and a wave-like base plate, and named the keyboard Mag-Wave44 based on the total number of 44 keys.
 
