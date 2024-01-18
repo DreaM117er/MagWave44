@@ -19,7 +19,7 @@
 
 - Here is a brief explanation of the orientation of the diode on the single PCB, please follow the diagram below to install the diode on the PCBs.
 
-![](pics/g08.jpg)
+![](pics/g08.png)
 ![](pics/g09.jpg)
 
 - Next step you need to solder the diodes, then cut off the useless feets.
