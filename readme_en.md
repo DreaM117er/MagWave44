@@ -9,13 +9,15 @@
 
 Dactyl Manuform keyboards come in many different styles, and various authors have created their own curved split keyboards, but most of the Manuforms are based on the original model, and the finished product may not necessarily fit your hands. In terms of finger length, the ring finger is a special finger, it can be between the middle finger and the index finger, or as long as the index finger, or shorter than the index finger, which makes most of the keyboards designed for the ring finger not so friendly.
 
-![des01](pics/d01.png)
-
 As I have a hand with the length of the ring finger between the middle finger and the index finger, I designed my first curved split keyboard based on my hands and the original Dactyl Manuform, and used low profile switches to reduce the thickness of the keyboard, which had the fatal flaw of being very difficult to maneuver with a moving finger.
 
-![des02](pics/d02.jpg)
-
 So I redesigned a new model based on this failed model, using the iPhone user's case accessory Mag-Safe and a wave-like base plate, and named the keyboard Mag-Wave44 based on the total number of 44 keys.
+
+- The first keyboard model.
+![des01](pics/d01.png)
+
+- My left hand fingers.
+![des02](pics/d02.jpg)
 
 ## Lists
 
@@ -26,31 +28,46 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 |bottom|1|Both hand|
 |plate|1|Both hand|
 |ec-11 plate|1-2|-|
-|D type EC-11 caps|1-2|-|
+|`D type` EC-11 caps|1-2|-|
 
 ### PCBs
 
 |Item|Amount|Note|
 |---|---|---|
-|Single PCB|42|for low profile switches|
+|Single PCB|42|for `low profile` switches|
 |PCB for TRRS and EC-11|1-2|-|
 |Main PCBs|1|-|
+
+|-|Top|Bottom|
+|---|---|---|
+|Main PCBs|![pcb1](pics/mainpcb1.png)|![pcb1](pics/mainpcb2.png)|
+|PCB for TRRS and EC-11|![pcb1](pics/otherpcb1.png)|![pcb1](pics/otherpcb2.png)|
 
 ### Screws and Others
 
 |Item|Amount|Note|
 |---|---|---|
-|M2x5mm Screw|84|-|
-|M2x8mm Screw|18|Optional, if it have PCBs|
-|M2 Nut|18|Optional, if it have PCBs|
-|M2x5mm Spacer|16|-|
-|M2x7mm Spacer|8|-|
-|M2x10mm Spacer|6|Optional, for rotray encoder|
-|M2x12mm Spacer|8|-|
-|M2x18mm Spacer|4|-|
-|D type Rotray Encoder EC-11|1-2|15mm high, Optional|
+|MCU|2|`ProMicro` or `RP2040Zero` series|
+|Diodes `1N4148`|44|Choose one type of `DO-35` or `SOD-123`|
+|`M2x5mm` Screw|84|-|
+|`M2x8mm` Screw|18|Optional, if it have PCBs|
+|`M2` Nut|18|Optional, if it have PCBs|
+|`M2x5mm` Spacer|16|-|
+|`M2x7mm` Spacer|8|-|
+|`M2x10mm` Spacer|6|Optional, for rotray encoder|
+|`M2x12mm` Spacer|8|-|
+|`M2x18mm` Spacer|4|-|
+|`D type` Rotray Encoder `EC-11`|1-2|`15mm high`, Optional|
 |Switches|42|-|
 |Keycaps|42|-|
+
+> **Note**
+>
+> The micro controller can be used according to your own needs. Please choose the micro controller according to your own needs, because it is completely opensource, you can change the current GPIO pins, if you want to install the keyboard according to the existing firmwares, the following micro controller is included in my list for your reference:
+> 
+> ATMega32U4 series: `ProMicro 5V16M`, `Eltie-C v4`.
+> 
+> RP2040 series: `RP2040-ProMicro`, `RP2040-Zero`, `RP2040-Matrix`, `RP2040-SuperMini`.
 
 ## Preparation
 
