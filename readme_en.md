@@ -1,7 +1,7 @@
 # Mag-Wave44
 
-- [中文說明（Chinese Readme）](readme.md)
-- 英文說明（English Readme）
+- [中文說明（Chinese Readme）](readme.md)。
+- 英文說明（English Readme）。
 
 ![info](pics/info.png)
 
@@ -23,12 +23,12 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 
 ### 3D Printed
 
-|Item|Amount|Note|
-|---|---|---|
-|bottom|1|Both hand|
-|plate|1|Both hand|
-|ec-11 plate|1-2|-|
-|`D type` EC-11 caps|1-2|-|
+|Item|Amount|Note|Picture|
+|---|---|---|---|
+|bottom|1|Both hand|![](pics/g02.jpg)|
+|plate|1|Both hand|![](pics/g01.jpg)|
+|ec-11 plate|1-2|-||
+|`D type` EC-11 caps|1-2|-|![](pics/g18.jpg)|
 
 ### PCBs
 
@@ -85,6 +85,8 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 > **Warning**
 >
 > Individuals operating 3D printers and using soldering iron tools must pay attention to the ventilation of the environment to avoid poisoning, ignition sources, burns and other hazards.
+
+- Click the link to [Building Guide](guide_en.md)。
 
 ## Reference and Information
 

@@ -1,7 +1,7 @@
 # Mag-Wave44
 
-- 中文說明（Chinese Readme）
-- [英文說明（English Readme）](readme_en.md)
+- 中文說明（Chinese Readme）。
+- [英文說明（English Readme）](readme_en.md)。
 
 ![info](pics/info.png)
 
@@ -24,12 +24,12 @@ Dactyl Manuform系列的鍵盤有很多種不同的樣式、也有各式各樣�
 
 ### 3D列印部件
 
-|名稱|數量|備註|
-|---|---|---|
-|底板|1組|左右手|
-|定位板|1組|左右手|
-|旋鈕定位板|1-2片|-|
-|`D型`旋鈕帽|1-2個|-|
+|名稱|數量|備註|照片|
+|---|---|---|---|
+|底板|1組|左右手|![](pics/g02.jpg)|
+|定位板|1組|左右手|![](pics/g01.jpg)|
+|旋鈕定位板|1-2片|-||
+|`D型`旋鈕帽|1-2個|-|![](pics/g18.jpg)|
 
 ### 電路板
 
@@ -87,7 +87,9 @@ Dactyl Manuform系列的鍵盤有很多種不同的樣式、也有各式各樣�
 >
 > 個人操作3D列印機、使用電烙鐵工具等務必注意環境通風，避免中毒、火源、燒燙傷等危險。
 
-## 四、參考及使用資料
+- [點我進入組裝說明](guide.md)。
+
+## 參考及使用資料
 - [QMK Firmware](https://qmk.fm/).
 - [VIAL](https://get.vial.today/).
 - [KiCAD](https://www.kicad.org/) version `7.0.5.`
