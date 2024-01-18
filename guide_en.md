@@ -34,9 +34,9 @@
 
 ## Link Keyboard Matrix
 
-- The following diagram shows the matrix of the Mag-Wave 44. Since all the plate is divided into 6 pieces, first we need to connect the single PCBs in the diagram with wires.
+- The following photo shows the matrix of the Mag-Wave 44. Since all the plates are divided into 6 pieces, first we need to connect the single PCBs in the photo with wires.
 
-![](pics/g16.jpg)
+![](pics/g16.png)
 
 - That's how it feels when it's done.
 
