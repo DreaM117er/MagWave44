@@ -32,16 +32,11 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 
 ### PCBs
 
-|Item|Amount|Note|
-|---|---|---|
-|Single PCB|42|for `low profile` switches|
-|PCB for TRRS and EC-11|1-2|-|
-|Main PCBs|1|-|
-
-|-|Top|Bottom|
-|---|---|---|
-|Main PCBs|![pcb1](pics/mainpcb1.png)|![pcb1](pics/mainpcb2.png)|
-|PCB for TRRS and EC-11|![pcb1](pics/otherpcb1.png)|![pcb1](pics/otherpcb2.png)|
+|Item|Amount|Note|Top|Bottom|
+|---|---|---|---|---|
+|Single PCB|42|for `low profile` switches|||
+|PCB for TRRS and EC-11|1-2|-|![pcb1](pics/otherpcb1.png)|![pcb1](pics/otherpcb2.png)|
+|Main PCBs|1|-|![pcb1](pics/mainpcb1.png)|![pcb1](pics/mainpcb2.png)|
 
 ### Screws and Others
 
@@ -49,6 +44,7 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 |---|---|---|
 |MCU|2|`ProMicro` or `RP2040Zero` series|
 |Diodes `1N4148`|44|Choose one type of `DO-35` or `SOD-123`|
+|`TRRS` jack|2|-|
 |`M2x5mm` Screw|84|-|
 |`M2x8mm` Screw|18|Optional, if it have PCBs|
 |`M2` Nut|18|Optional, if it have PCBs|
@@ -58,8 +54,11 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 |`M2x12mm` Spacer|8|-|
 |`M2x18mm` Spacer|4|-|
 |`D type` Rotray Encoder `EC-11`|1-2|`15mm high`, Optional|
+|`M5x8mm` or more lenth thick head Screw|4|Tending, Optional|
+|`M5` Nut|4-7|Tending, Optional|
+|Wire|-|-|
 |Switches|42|-|
-|Keycaps|42|-|
+|1u Keycaps|42|-|
 
 > **Note**
 >
