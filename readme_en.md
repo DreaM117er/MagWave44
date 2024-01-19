@@ -23,7 +23,7 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 
 ### 3D Printed
 
-|Item|Amount|Note|Picture|
+|Item|Amount|Note|photo|
 |---|---|---|---|
 |bottom|1|Both hand|![](pics/g02.jpg)|
 |plate|1|Both hand|![](pics/g01.jpg)|
