@@ -1,4 +1,4 @@
-# Mag-Wave44
+# MagWave44
 
 - [中文說明（Chinese Readme）](readme.md)。
 - 英文說明（English Readme）。
@@ -11,7 +11,7 @@ Dactyl Manuform keyboards come in many different styles, and various authors hav
 
 As I have a hand with the length of the ring finger between the middle finger and the index finger, I designed my first curved split keyboard based on my hands and the original Dactyl Manuform, and used low profile switches to reduce the thickness of the keyboard, which had the fatal flaw of being very difficult to maneuver with a moving finger.
 
-So I redesigned a new model based on this failed model, using the iPhone user's case accessory Mag-Safe and a wave-like base plate, and named the keyboard Mag-Wave44 based on the total number of 44 keys.
+So I redesigned a new model based on this failed model, using the iPhone user's case accessory Magsafe and a wave-like base plate, and named the keyboard MagWave44 based on the total number of 44 keys.
 
 - The first keyboard model.
 ![des01](pics/d01.png)
@@ -72,7 +72,7 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 
 > **Note**
 >
-> Mag-Wave44 is a curved surface keyboard for 3D printing. Since the positioning plate is designed to belong to the short axis, the screw fittings belong to the smaller M2 specification, and it is recommended to use LCD or SLA printers for production.
+> MagWave44 is a curved surface keyboard for 3D printing. Since the positioning plate is designed to belong to the short axis, the screw fittings belong to the smaller M2 specification, and it is recommended to use LCD or SLA printers for production.
 
 > **Note**
 >
