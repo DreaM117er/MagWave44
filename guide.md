@@ -55,7 +55,7 @@
 
 > **Note**
 >
-> 主體電路板的部分包含MCU、本體、TRRS、EC-11，請先將他們備著。
+> 主體電路板的部分包含`MCU`、`本體`、`TRRS`、`EC-11`，請先將他們備著。
 
 ![](pics/g17.jpg)
 
@@ -63,11 +63,11 @@
 
 ![](pics/g24.jpg)
 
-- 接著將MCU（這裡我是使用RP2040-Matrix做為主控）按照理想的方式固定在MCU電路板上。
+- 接著將MCU（這裡我是使用`RP2040-Matrix`做為主控）按照理想的方式固定在MCU電路板上。
 
 ![](pics/g25.jpg)
 
-- 接著再將TRRS座也焊接固定在專用的PCB板上。
+- 接著再將`TRRS座`也焊接固定在專用的PCB板上。
 
 ![](pics/g26.jpg)
 
@@ -77,42 +77,113 @@
 
 > **Note**
 >
-> 下圖是本體電路板的主要功能說明，MagWave44會用到Power、TRRS（VCC、S1、GND）、Signal（S1、A1、B1）、Rotray Encoder（A1、GND、B1）及Matrix（Row及Col）的部分，並將左右邊本體電路板相應的排針母座焊接固定好。
+> 下圖是本體電路板的主要功能說明，MagWave44會用到`Power`、`TRRS`（`VCC`、`S1`、`GND`）、`Signal`（`S1`、`A1`、`B1`）、`Rotray Encoder`（`A1`、`GND`、`B1`）及`Matrix`（`Row`及`Col`）的部分，並將左右邊本體電路板相應的排針母座焊接固定好。
 
 ![](pics/g20.png)
 ![](pics/g27.jpg)
 ![](pics/g28.jpg)
 
-- Then fasten them to the bottom case with M2x8mm screws and M2 nuts respectively. (Here I have the matching washers, you can use it according to your needs)
+- 然後將它們分別用`M2x8mm螺絲`、`M2螺帽`固定在底板上。（這裡我有搭配`墊片`，可視需求使用）
 
 ![](pics/g29.jpg)
 
-## Wiring Principle
+## 接線原理
 
 > **Note**
 >
-> If you want to wire the MCUs according to the MagWave44 firmware, the following photo shows how to wire the MCUs in an easy way:
+> 如果是想依照MagWave44`相應的韌體`進行接線的話，下圖會說明各類MCU要如何接線比較輕鬆容易：
 
-1. ATMega32U4 ProMicro, Elite-C:
-![](pics/elitec.png)
+|微控制器|示意圖|
+|---|---|
+|`ATMega32U4 ProMicro`、`Elite-C`|![](pics/elitec.png)|
+|`RP2040 ProMicro`系列|![](pics/RP2040ProMicro.jpg)|
+|`RP2040-Zero`、`RP2040Supermini`、`RP2040-Matrix `|![](pics/RP2040SueprMini0.png)|
 
-2. RP2040 ProMicro series:
-![](pics/RP2040ProMicro.jpg)
+> **Warning**
+>
+> `ProMicro`、`Elite-C`有著相同的IOPin；`RP2040-Zero`、`RP2040Supermini`、`RP2040-Matrix `三者也一樣。
 
-3. RP2040-Zero, RP2040Supermini, RP2040-Matrix (Matrix RPG supported on board):
-![](pics/RP2040SueprMini0.png)
+> **Note**
+>
+> 接著按照順序將MCU上的線路接到本體板上，再將本體向外接線接出去。
+> 
+> 請依照自己的手拉線技巧將線路一步步接起來，我的方式是將電線組合成排線，再將它們接到相應的位置上。
 
+- 連結TRRS座:
 
+![](pics/g31.jpg)
+![](pics/g32.jpg)
+![](pics/g33.jpg)
+![](pics/g33.jpg)
+![](pics/g35.jpg)
+![](pics/g34.jpg)
+![](pics/g30.jpg)
 
+- 給鍵盤本體供電:
 
+![](pics/g36.jpg)
+![](pics/g37.jpg)
+![](pics/g38.jpg)
 
+- 連結MCU到Signal，還有旋鈕EC-11: （我忘了拍照...）
 
+![](pics/g39.jpg)
+![](pics/g40.jpg)
+![](pics/g41.jpg)
+![](pics/g42.jpg)
+![](pics/g43.jpg)
 
+- EC-11旋鈕的矩陣圖:
 
+![](pics/c3.png)
+![](pics/g44.jpg)
 
+- 小指區域的矩陣圖:
 
+![](pics/c1.png)
+![](pics/g45.jpg)
+![](pics/g46.jpg)
 
+- 拇指區域的矩陣位置:
 
+![](pics/c4.png)
+![](pics/g47.jpg)
+![](pics/g48.jpg)
 
+- 最後將主要按鍵區域裝上去:
 
+![](pics/c2.png)
+![](pics/g49.jpg)
+![](pics/g50.jpg)
 
+- 然後完成另一支手：
+![](pics/g51.jpg)
+
+- 接著測試鍵盤按鍵、矩陣及旋鈕有沒有正常運作。
+![](pics/g52.jpg)
+
+- 最後把鍵帽安裝上去就完成了。
+![](pics/g53.jpg)
+
+## 鍵盤腳撐
+
+> **Note**
+>
+> MagWave44有2種方式自行添加不同角度的腳撐，一種是是M5螺絲安裝在鍵盤周圍的4個角落，一種是使用Magsafe引磁片，需要搭配Magsafe雲台座合併使用。
+
+- Magsafe引磁片：
+
+![](pics/o01.jpg)
+![](pics/o02.jpg)
+![](pics/o03.jpg)
+
+- M5螺絲腳撐
+
+![](pics/o04.jpg)
+![](pics/o05.jpg)
+
+- Magsafe雲台座，搭配雲台配件使用：
+
+![](pics/o06.jpg)
+![](pics/o07.jpg)
+![](pics/o08.jpg)

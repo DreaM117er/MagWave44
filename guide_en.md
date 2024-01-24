@@ -37,7 +37,7 @@
 ![](pics/g21.jpg)
 ![](pics/g22.jpg)
 
-- After installing the diode, you can fix the knob on the board first.
+- After installing the diode, you can solder EC-11 on the board first.
 
 ![](pics/g23.jpg)
 
@@ -55,19 +55,19 @@
 
 > **Note**
 >
-> The part of the main board contains MCU, Body, EC-11 and TRRS, please prepare them first.
+> The part of the main board contains `MCU`, `Body`, `EC-11` and `TRRS`, please prepare them first.
 
 ![](pics/g17.jpg)
 
-- The MCU board part is not divided into front and back, you can adjust the direction, this time it is to install a split keyboard, the part of the bus connector is facing the left and right side respectively.
+- The MCU board part is not divided into front and back, you can adjust the direction, this time it is to build a split keyboard, the part of the bus connector is facing the left and right side respectively.
 
 ![](pics/g24.jpg)
 
-- Next, solder the MCU (here I used RP2040-matrix to be MCU) on the MCU board in the desired way.
+- Next, solder the MCU (here I used `RP2040-matrix` to be MCU) on the MCU board in the desired way.
 
 ![](pics/g25.jpg)
 
-- The TRRS jacks are then soldered to the dedicated PCB board.
+- The `TRRS jacks` are then soldered to the dedicated PCB board.
 
 ![](pics/g26.jpg)
 
@@ -77,36 +77,113 @@
 
 > **Note**
 >
-> The following photo shows the main functions of the board, MagWave44 will use Power, TRRS (VCC, S1, GND), Signal (S1, A1, B1), Rotray Encoder (A1, GND, B1), and Matrix (Row and Col), and will be left and right side of the board the corresponding row of pins female sockets soldering fixed.
+> The following photo shows the main functions of the board, MagWave44 will use `Power`, `TRRS` (`VCC`, `S1`, `GND`), `Signal` (`S1`, `A1`, `B1`), `Rotray Encoder` (`A1`, `GND`, `B1`), and `Matrix` (`Row` and `Col`), and will be left and right side of the board the corresponding row of pins female sockets soldering fixed.
 
 ![](pics/g20.png)
 ![](pics/g27.jpg)
 ![](pics/g28.jpg)
 
-- 然後將它們分別用M2x8mm螺絲、M2螺帽固定在底板上。（這裡我有搭配墊片，可視需求使用）
+- Then fasten them to the bottom case with `M2x8mm screws` and `M2 nuts` respectively. (Here I have the matching `washers`, you can use it according to your needs)
 
 ![](pics/g29.jpg)
 
-## 接線原理
+## Wiring Principle
 
 > **Note**
 >
-> 如果是想依照MagWave44相應的韌體進行接線的話，下圖會說明各類MCU要如何接線比較輕鬆容易：
+> If you want to wire the MCUs according to the MagWave44 `firmwares`, the following photo shows how to wire the MCUs in an easy way:
 
-1. ATMega32U4 ProMicro, Elite-C:
-![](pics/elitec.png)
+|MCUs|Photo|
+|---|---|
+|`ATMega32U4 ProMicro`, `Elite-C`|![](pics/elitec.png)|
+|`RP2040 ProMicro` series|![](pics/RP2040ProMicro.jpg)|
+|`RP2040-Zero`, `RP2040Supermini`, `RP2040-Matrix`|![](pics/RP2040SueprMini0.png)|
 
-2. RP2040 ProMicro系列:
-![](pics/RP2040ProMicro.jpg)
+> **Warning**
+>
+> `Elite-C`, `ProMicro` have same count of IOPins; `RP2040-Zero`, `RP2040Supermini`, `RP2040-Matrix` also too.
 
-3. RP2040-Zero, RP2040Supermini, RP2040-Matrix (板載RPG矩陣):
-![](pics/RP2040SueprMini0.png)
+> **Note**
+>
+> Next, connect the wires from the MCU to the body board in order, and then connect the body to the external wires.
+> 
+> Please follow your own handwiring skills to connect the wires step by step, the way I do it is to assemble the wires combine arrays and then connect them to the corresponding sites.
 
+- Connect TRRS jack:
 
+![](pics/g31.jpg)
+![](pics/g32.jpg)
+![](pics/g33.jpg)
+![](pics/g33.jpg)
+![](pics/g35.jpg)
+![](pics/g34.jpg)
+![](pics/g30.jpg)
 
+- Give Power onto the body board:
 
+![](pics/g36.jpg)
+![](pics/g37.jpg)
+![](pics/g38.jpg)
 
+- MCU to Signal, and connect EC-11: (I forgot to take Signal photo...)
 
+![](pics/g39.jpg)
+![](pics/g40.jpg)
+![](pics/g41.jpg)
+![](pics/g42.jpg)
+![](pics/g43.jpg)
 
+- Matrix of EC-11:
 
+![](pics/c3.png)
+![](pics/g44.jpg)
 
+- Matrix of Col0-1, Row0-3 (little finger area):
+
+![](pics/c1.png)
+![](pics/g45.jpg)
+![](pics/g46.jpg)
+
+- Matrix of Col3-5, Row3 (Thumb area):
+
+![](pics/c4.png)
+![](pics/g47.jpg)
+![](pics/g48.jpg)
+
+- Matrix of Col2-5, Row0-3 (Main area):
+
+![](pics/c2.png)
+![](pics/g49.jpg)
+![](pics/g50.jpg)
+
+- Then finish other hand side:
+![](pics/g51.jpg)
+
+- Testing keyboard, matrix and RGB led work.
+![](pics/g52.jpg)
+
+- Put on your keycaps, then all done.
+![](pics/g53.jpg)
+
+## Tending
+
+> **Note**
+>
+> The MagWave44 has two ways to add the tending at different angles, one is by using the M5 screws in the 4 corners around the keyboard, and the other is by using the Magsafe rings, which need to be combined with the Magsafe tripod.
+
+- Magsafe rings:
+
+![](pics/o01.jpg)
+![](pics/o02.jpg)
+![](pics/o03.jpg)
+
+- M5 screws tending:
+
+![](pics/o04.jpg)
+![](pics/o05.jpg)
+
+- Magsafe tripod and crema tripod.
+
+![](pics/o06.jpg)
+![](pics/o07.jpg)
+![](pics/o08.jpg)
