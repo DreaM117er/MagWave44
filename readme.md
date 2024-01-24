@@ -38,7 +38,8 @@ Dactyl Manuform系列的鍵盤有很多種不同的樣式、也有各式各樣�
 |單格電路板|42片|`矮軸`用|||
 |TRRS專用電路板|2片|-|![pcb1](pics/trrs1.png)|![pcb1](pics/trrs2.png)|
 |EC-11的專用電路板|1-2片|-|![pcb1](pics/re1.png)|![pcb1](pics/re2.png)|
-|MCU本體電路板|1組|-|![pcb1](pics/mainpcb1.png)|![pcb1](pics/mainpcb2.png)|
+|MCU電路板|2片|-|![pcb1](pics/mainpcb1.png)|![pcb1](pics/mainpcb2.png)|
+|本體電路板|2片|-|![pcb1](pics/body1.png)|![pcb1](pics/body2.png)|
 
 ### 螺絲零件
 
@@ -47,6 +48,7 @@ Dactyl Manuform系列的鍵盤有很多種不同的樣式、也有各式各樣�
 |微型控制器|2片|`ProMicro`系列或`RP2040-zero`系列|
 |`1N4148` 二極體|44個|`DO-35`或`SOD-123`都可|
 |`TRRS`座|2個|-|
+|公母圓`排針`|-|-|
 |`M2x5mm` 扁頭螺絲|84根|-|
 |`M2x8mm` 扁頭螺絲|18根|可選配，有電路板才需要|
 |`M2` 六角螺母|18個|可選配，有電路板才需要|

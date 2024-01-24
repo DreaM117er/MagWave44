@@ -37,7 +37,8 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 |Single PCB|42|for `low profile` switches|||
 |PCB for TRRS|1-2|-|![pcb1](pics/trrs1.png)|![pcb1](pics/trrs2.png)|
 |PCB for EC-11|1-2片|-|![pcb1](pics/re1.png)|![pcb1](pics/re2.png)|
-|Main PCBs|1|-|![pcb1](pics/mainpcb1.png)|![pcb1](pics/mainpcb2.png)|
+|Main PCBs|2|-|![pcb1](pics/mainpcb1.png)|![pcb1](pics/mainpcb2.png)|
+|Body PCBs|2|-|![pcb1](pics/body1.png)|![pcb1](pics/body2.png)|
 
 ### Screws and Others
 
@@ -46,6 +47,7 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 |MCU|2|`ProMicro` or `RP2040Zero` series|
 |Diodes `1N4148`|44|Choose one type of `DO-35` or `SOD-123`|
 |`TRRS` jack|2|-|
+|M/F `Pin headers`|-|-|
 |`M2x5mm` Screw|84|-|
 |`M2x8mm` Screw|18|Optional, if it have PCBs|
 |`M2` Nut|18|Optional, if it have PCBs|
