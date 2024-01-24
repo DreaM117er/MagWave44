@@ -92,6 +92,13 @@ Dactyl Manuform系列的鍵盤有很多種不同的樣式、也有各式各樣�
 
 - [點我進入組裝說明](guide.md)。
 
+## 鍵盤配列
+
+|Layer|photo|
+|---|---|
+|![](pics/k1.png)|![](pics/k2.png)|
+|![](pics/k3.png)|![](pics/k4.png)|
+
 ## 參考及使用資料
 - [QMK Firmware](https://qmk.fm/).
 - [VIAL](https://get.vial.today/).

@@ -91,6 +91,13 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 
 - Click the link to [Building Guide](guide_en.md)。
 
+## Layout and Keymap
+
+|Layer|photo|
+|---|---|
+|![](pics/k1.png)|![](pics/k2.png)|
+|![](pics/k3.png)|![](pics/k4.png)|
+
 ## Reference and Information
 
 - [QMK Firmware](https://qmk.fm/).
