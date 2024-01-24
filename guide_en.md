@@ -67,6 +67,10 @@
 
 ![](pics/g25.jpg)
 
+> **Note**
+>
+> After solder the MCU on the MCU board, the `left side pin` will lead to the `L side`, the `right side` will lead to the `R side`, and the `bottom side` will lead to the `D side` below, and the direction of the `arrow` will be the position of the pin as the direction reading.
+
 - The `TRRS jacks` are then soldered to the dedicated PCB board.
 
 ![](pics/g26.jpg)
