@@ -3,7 +3,7 @@
 - [中文說明（Chinese Readme）](readme.md)。
 - 英文說明（English Readme）。
 
-![info](pics/info.png)
+![info](pics/info.jpg)
 
 ## Descruption
 

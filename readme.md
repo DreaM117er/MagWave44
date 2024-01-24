@@ -3,7 +3,7 @@
 - 中文說明（Chinese Readme）。
 - [英文說明（English Readme）](readme_en.md)。
 
-![info](pics/info.png)
+![info](pics/info.jpg)
 
 ## 簡介
 
