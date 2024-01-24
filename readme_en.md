@@ -35,7 +35,8 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 |Item|Amount|Note|Top|Bottom|
 |---|---|---|---|---|
 |Single PCB|42|for `low profile` switches|||
-|PCB for TRRS and EC-11|1-2|-|![pcb1](pics/otherpcb1.png)|![pcb1](pics/otherpcb2.png)|
+|PCB for TRRS|1-2|-|![pcb1](pics/trrs1.png)|![pcb1](pics/trrs2.png)|
+|PCB for EC-11|1-2片|-|![pcb1](pics/re1.png)|![pcb1](pics/re2.png)|
 |Main PCBs|1|-|![pcb1](pics/mainpcb1.png)|![pcb1](pics/mainpcb2.png)|
 
 ### Screws and Others
@@ -80,7 +81,7 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 
 > **Note**
 >
-> There are 3 types of keyboard firmware to choose from, and the production method will be introduced in such a way as to reduce the difficulty of handwiring.
+> There are 4 types of keyboard firmware to choose from, and the production method will be introduced in such a way as to reduce the difficulty of handwiring.
 
 > **Warning**
 >

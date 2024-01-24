@@ -17,7 +17,7 @@
 
 ## Diodes and Single PCB
 
-- Here is a brief explanation of the orientation of the diode on the single PCB, please follow the diagram below to install the diode on the PCBs.
+- Here is a brief explanation of the orientation of the diode on the single PCB, please follow the photo below to install the diode on the PCBs.
 
 ![](pics/g08.png)
 ![](pics/g09.jpg)
