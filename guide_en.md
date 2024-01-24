@@ -142,7 +142,7 @@
 ![](pics/c3.png)
 ![](pics/g44.jpg)
 
-- Matrix of Col0-1, Row0-3 (little finger area):
+- Matrix of Col0-1, Row0-2 (little finger area):
 
 ![](pics/c1.png)
 ![](pics/g45.jpg)
@@ -154,7 +154,7 @@
 ![](pics/g47.jpg)
 ![](pics/g48.jpg)
 
-- Matrix of Col2-5, Row0-3 (Main area):
+- Matrix of Col2-5, Row0-2 (Main area):
 
 ![](pics/c2.png)
 ![](pics/g49.jpg)
