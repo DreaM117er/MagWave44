@@ -157,12 +157,15 @@
 ![](pics/g50.jpg)
 
 - Then finish other hand side:
+
 ![](pics/g51.jpg)
 
 - Testing keyboard, matrix and RGB led work.
+
 ![](pics/g52.jpg)
 
 - Put on your keycaps, then all done.
+
 ![](pics/g53.jpg)
 
 ## Tending
