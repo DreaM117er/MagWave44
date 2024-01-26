@@ -44,11 +44,11 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 
 |Item|Amount|Note|
 |---|---|---|
-|MCU|2|`ProMicro` or `RP2040Zero` series|
-|Diodes `1N4148`|44|Choose one type of `DO-35` or `SOD-123`|
+|MCU|2|Please check `Note` below|
+|Diodes `1N4148`|42-44|Choose one type of `DO-35` or `SOD-123`|
 |`TRRS` jack|2|-|
 |M/F `Pin headers`|-|-|
-|`M2x5mm` Screw|84|-|
+|`M2x5mm` Screw|72-84|-|
 |`M2x8mm` Screw|18|Optional, if it have PCBs|
 |`M2` Nut|18|Optional, if it have PCBs|
 |`M2x5mm` Spacer|16|-|
@@ -57,8 +57,9 @@ So I redesigned a new model based on this failed model, using the iPhone user's 
 |`M2x12mm` Spacer|8|-|
 |`M2x18mm` Spacer|4|-|
 |`D type` Rotray Encoder `EC-11`|1-2|`15mm high`, Optional|
-|`M5x8mm` or more lenth thick head Screw|4|Tending, Optional|
+|`M5x8mm` or more lenth thick head Screw|8|Tending, Optional|
 |`M5` Nut|4-7|Tending, Optional|
+|`Magsafe` metel rings|2|Tending, Optional|
 |Wire|-|-|
 |Switches|42|-|
 |1u Keycaps|42|-|
