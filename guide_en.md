@@ -32,7 +32,7 @@
 ![](pics/g12.jpg)
 ![](pics/g13.jpg)
 
-- It has a switche on the PCB for EC-11, don't forget to install the diode on it.
+- It has a switch on the PCB for EC-11, don't forget to install the diode on it.
 
 ![](pics/g21.jpg)
 ![](pics/g22.jpg)
